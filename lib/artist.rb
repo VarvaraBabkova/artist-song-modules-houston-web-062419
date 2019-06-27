@@ -2,8 +2,7 @@ require 'pry'
 
 class Artist
 
-  extend Memorable::count
-  extend Memorable::reset_all
+  extend Memorable
 
 
   attr_accessor :name
