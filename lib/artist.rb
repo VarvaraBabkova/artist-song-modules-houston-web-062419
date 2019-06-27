@@ -3,6 +3,8 @@ require 'pry'
 class Artist
 
   extend Memorable::count
+  extend Memorable::reset_all
+
 
   attr_accessor :name
   attr_reader :songs
